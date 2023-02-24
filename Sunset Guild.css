@@ -1,0 +1,107 @@
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    color: black;
+  }
+
+#body {
+    background:linear-gradient(rgba(133, 31, 78, 1), rgb(109, 21, 62));
+}
+
+#home_page_title {
+    font-size: 48px;
+    padding-left: 15%;
+    text-shadow: 2px 2px 5px #883c77;
+}
+
+ul {
+    float:right;
+    text-align: right;
+    list-style-type: none;
+    overflow: hidden;
+    position:sticky;
+    width:auto;
+    top:0px;
+    margin-top: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+li {
+    display: inline;
+  }
+
+.nav_bar a:hover {
+    background-color: #c51b7080;
+  }
+
+.nav_bar a {
+    padding: 58px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.second_background {
+    background-color: 	rgb(170, 51, 106);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+}
+
+#background_home {
+    background:linear-gradient(rgba(133, 31, 79, 0.541), rgba(0, 0, 0, 0.37));
+    border: 0px solid transparent;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home_page_subtitle {
+    font-family: 'Mulish';
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.home_page_description {
+    font-family: 'Mulish';
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.discord_link {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #7289da;
+    font-size: 24px;
+    padding-bottom: 60px;
+}
+
+.discord_link a:visited {
+    color: rgb(27, 27, 184);
+}
+
+#home_page_logo {
+    text-align: center;
+}
+
+.immagine {
+    border-left: 10px solid black;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: -5px;    
+}
